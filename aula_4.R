@@ -40,7 +40,7 @@ ggplot(data = titanic, aes(x = Sex, fill = Survived))+
 iris
 iris <- iris[sample(), (nrow(iris)),]
 iris
-n <- round(0.8*nrow(iris)) #pegando 80% do número de linhas
+n <- round(0.8*nrow(iris)) #pegando 80% do número de linhas. Ainda não entendi o porque estamos pegando os 80% para o treinamento e os outros 20% para teste (lógica)
 n
 
 treinamento <- iris[1:n,] 
